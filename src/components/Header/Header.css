@@ -197,14 +197,14 @@
 
   .header__title {
     position: relative;
-    right: -50px;
+    right: -25px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .header__image-mobile {
     position: relative;
-    right: -50px;
+    right: -25px;
     align-self: flex-end;
   }
 

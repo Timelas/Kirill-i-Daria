@@ -202,8 +202,9 @@
   }
 
   .dresscode__color {
-    width: 150px;
+    width: calc((100vw - 60px) / 2);
     height: 300px;
+    max-width: 210px;
   }
 
   .dresscode__color_var_two {
