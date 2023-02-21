@@ -154,11 +154,6 @@
   }
 
   .dresscode__color {
-    width: 62px;
-    height: 62px;
-  }
-
-  .dresscode__color {
     width: 200px;
     height: 400px;
   }
@@ -207,12 +202,11 @@
   }
 
   .dresscode__color {
-    width: 37px;
-    height: 37px;
-  }
-
-  .dresscode__color {
     width: 150px;
     height: 300px;
+  }
+
+  .dresscode__color_var_two {
+    display: none;
   }
 }
