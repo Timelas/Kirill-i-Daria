@@ -49,18 +49,6 @@ function Questions() {
               <span className="question__text-span">Нет</span>
             </label>
           </fieldset>
-          <fieldset className="question__string">Предпочтения по еде:
-            <label  htmlFor="chicken" className="question__label">
-              <input className="question__unvisible" type="radio" name="Еда" value="Курица" id="chicken"></input>
-              <span className="question__visible-radio"></span>
-              <span className="question__text-span">Курица</span>
-            </label>
-            <label htmlFor="fish" className="question__label">
-              <input className="question__unvisible" type="radio" name="Еда" value="Рыба" id="fish"></input>
-              <span className="question__visible-radio"></span>
-              <span className="question__text-span">Рыба</span>
-            </label>
-          </fieldset>
           <p className="question__string">
             <label htmlFor="alco" className="question__label-input">Пожелания по алкоголю:</label>
             <input type="text" name="Алкоголь" id="alco" required className="question__input"></input>

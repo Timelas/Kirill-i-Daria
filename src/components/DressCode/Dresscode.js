@@ -14,8 +14,6 @@ function Dresscode() {
         <div className="dresscode__color dresscode__color_var_one"></div>
         <div className="dresscode__color dresscode__color_var_two"></div>
         <div className="dresscode__color dresscode__color_var_three"></div>
-        <div className="dresscode__color dresscode__color_var_four"></div>
-        <div className="dresscode__color dresscode__color_var_five"></div>
       </div>
     </section>
   );

@@ -48,33 +48,27 @@
   justify-content: space-between;
   margin: 50px 0;
   min-width: 30%;
+  gap: 20px;
 }
 
 .dresscode__color {
-  width: 62px;
-  height: 62px;
-  border-radius: 50%;
-  border: 1px solid rgba(53, 53, 53, 0.259);
+  width: 400px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .dresscode__color_var_one {
-  background-color: #5b071f;
+  background-image: url(../../images/dresscodegirls.jpg);
 }
 
 .dresscode__color_var_two {
-  background-color: #e0b8c7;
+  background-image: url(../../images/dresscodeall.jpg);
 }
 
 .dresscode__color_var_three {
-  background-color: #fcf3ed;
-}
-
-.dresscode__color_var_four {
-  background-color: #cebcaa;
-}
-
-.dresscode__color_var_five {
-  background-color: #5b3410;
+  background-image: url(../../images/dresscodeboys.jpg);
 }
 
 .dresscode__figure {
@@ -119,6 +113,11 @@
     width: 90px;
     height: 250px;
   }
+
+  .dresscode__color {
+    width: 300px;
+    height: 500px;
+  }
 }
 
 @media screen and (max-width: 1300px) {
@@ -157,6 +156,11 @@
   .dresscode__color {
     width: 62px;
     height: 62px;
+  }
+
+  .dresscode__color {
+    width: 200px;
+    height: 400px;
   }
 }
 
@@ -205,5 +209,10 @@
   .dresscode__color {
     width: 37px;
     height: 37px;
+  }
+
+  .dresscode__color {
+    width: 150px;
+    height: 300px;
   }
 }
