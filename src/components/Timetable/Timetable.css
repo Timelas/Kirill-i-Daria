@@ -116,7 +116,6 @@
 
 .timetable__text_about_rings {
   grid-area: text-rings;
-  word-break: keep-all;
 }
 
 .timetable__text_about_foto {
@@ -156,29 +155,15 @@
     padding-top: 100px;
   }
 
-  .timetable__block {
-    grid-template-columns: repeat(8, 120px);
-    margin-top: 70px;
-  }
-
-  .timetable__text {
-    font-size: 14px;
-    width: 110px;
-  }
-
   .timetable__pic {
     width: 90px;
     height: 90px;
-  }
-
-  .timetable__text_about_rings {
-    word-break: break-all;
   }
 }
 
 @media screen and (max-width: 1300px) {
   .timetable__block {
-    grid-template-columns: repeat(8, 100px);
+    grid-template-columns: repeat(8, 120px);
     margin-top: 70px;
   }
 
@@ -188,28 +173,28 @@
   }
 
   .timetable__line {
-    width: 101px;
+    width: 121px;
   }
 
   .timetable__line-start {
-    height: 11.4px;
+    height: 13.7px;
     object-position: right;
   }
 
   .timetable__line-end {
-    height: 11.4px;
+    height: 13.7px;
     object-position: left;
   }
 
   .timetable__text {
     font-size: 12px;
-    width: 100px;
+    width: 120px;
   }
 }
 
 @media screen and (max-width: 1100px) {
   .timetable__block {
-    grid-template-columns: repeat(8, 90px);
+    grid-template-columns: repeat(8, 110px);
     margin-top: 60px;
   }
 
@@ -219,24 +204,60 @@
   }
 
   .timetable__line {
-    width: 91px;
+    width: 111px;
   }
 
   .timetable__line-start {
-    height: 10.3px;
+    height: 12.6px;
   }
 
   .timetable__line-end {
-    height: 10.3px;
+    height: 12.6px;
   }
 
   .timetable__text {
     font-size: 11px;
-    width: 90px;
+    width: 110px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .timetable__block {
+    grid-template-columns: repeat(8, 100px);
+    margin-top: 60px;
   }
 
-  .timetable__text_about_rings {
-    word-break: break-all;
+  .timetable__text {
+    font-size: 10px;
+    width: 100px;
+  }
+
+  .timetable__line {
+    width: 101px;
+  }
+
+  .timetable__line-start {
+    height: 11.4px;
+  }
+
+  .timetable__line-end {
+    height: 11.4px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .timetable__text {
+    font-size: 10px;
+    width: 100px;
+  }
+
+  .timetable__block {
+    grid-template-columns: repeat(8, 90px);
+    margin-top: 60px;
+  }
+
+  .timetable__line {
+    width: 91px;
   }
 }
 
@@ -247,7 +268,7 @@
 
   .timetable__text {
     font-size: 12px;
-    width: 120px;
+    width: 125px;
   }
 
   .timetable__block {

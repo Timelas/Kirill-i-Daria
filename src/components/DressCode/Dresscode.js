@@ -9,7 +9,7 @@ function Dresscode() {
         <div className="dresscode__trait">Black Tie</div>
       </div>
       <div className="dresscode__figure"></div>
-      <p className="dresscode__description">Мы очень старались сделать праздник красивым и будем рады, если в своих нарядах вы поддержите цветовую гамму нашей свадьбы и примеры образов ниже:</p>
+      <p className="dresscode__description">Мы очень старались сделать праздник красивым и будем рады, если в своих нарядах вы поддержите цветовую гамму нашей свадьбы. Примеры образов ниже:</p>
       <div className="dresscode__colors">
         <div className="dresscode__color dresscode__color_var_one"></div>
         <div className="dresscode__color dresscode__color_var_two"></div>

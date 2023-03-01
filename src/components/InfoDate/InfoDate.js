@@ -24,7 +24,7 @@ function InfoDate() {
         <div className="info-date__banquet">
           <p className="info-date__what">Празднчный банкет</p>
           <p className="info-date__where">"ресторан "Панорама"<br /> Санкт-Петербург, Репино, Приморское шоссе, 428, лит.Д</p>
-          <iframe className="info-date__map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Aaf4e218b72f0da126a28aba56b8d15ae58b4927c3264408385223d6084af4914&amp;source=constructor" frameborder="0" title="map"></iframe>
+          <iframe className="info-date__map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Aaf4e218b72f0da126a28aba56b8d15ae58b4927c3264408385223d6084af4914&amp;source=constructor" frameBorder="0" title="map"></iframe>
         </div>
         <div className="info-date__figure-left"></div>
         <div className="info-date__figure-right"></div>

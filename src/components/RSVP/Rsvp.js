@@ -4,7 +4,7 @@ import "./Rsvp.css";
 
 function Rsvp() {
   const formRef = useRef(null)
-  const scriptUrl = "https://script.google.com/macros/s/AKfycby_BYT6LzPV3FZHn66CPeQcYu6bE5b3ZBjuvAoU08L_RdiIzQ7viRTg5mtfej77Y_iK/exec"
+  const scriptUrl = "https://script.google.com/macros/s/AKfycbzLVE2QdFEeA6weaF0SR1WEO9OX0FnDvrHNeR4pj2tFxMsaVmtkY8HAx84AGtSWz7-M/exec"
   const [loading, setLoading] = useState(false);
   const [isFormVisible, setIsFormVisible] = useState(true);
   const [isSubmitChange, setIsSubmitChange] = useState(true);
