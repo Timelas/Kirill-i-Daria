@@ -12,7 +12,7 @@ function InfoDate() {
       <div className="info-date__place" id="place">
         <div className="info-date__line1"></div>
         <div className="info-date__line2"></div>
-        <p className="info-date__day-week">Пятница</p>
+        <p className="info-date__day-week">Суббота</p>
         <div className="info-date__day">
           <p className="info-date__number">15</p>
           <div className="info-date__vertical-line"></div>
