@@ -64,23 +64,11 @@
 }
 
 .dresscode__color_var_two {
-  background-image: url(../../images/dresscodegirls2.jpg);
+  background-image: url(../../images/dresscodeall.jpg);
 }
 
 .dresscode__color_var_three {
-  background-image: url(../../images/dresscodegirls3.jpg);
-}
-
-.dresscode__color_var_four {
-  background-image: url(../../images/dresscodegirls.jpg);
-}
-
-.dresscode__color_var_two {
-  background-image: url(../../images/dresscodegirls2.jpg);
-}
-
-.dresscode__color_var_three {
-  background-image: url(../../images/dresscodegirls3.jpg);
+  background-image: url(../../images/dresscodeboys.jpg);
 }
 
 .dresscode__figure {
