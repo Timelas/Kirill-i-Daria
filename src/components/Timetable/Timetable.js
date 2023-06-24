@@ -34,8 +34,8 @@ function Timetable() {
         <img className="timetable__line timetable__line_center_car" src={lineCenter} alt="линия"></img>
         <img className="timetable__line-start" src={lineStart} alt="линия"></img>
         <img className="timetable__line-end" src={lineEnd} alt="линия"></img>
-        <p className="timetable__text timetable__text_about_legsin">Сбор гостей <br />м. Старая деревня<br /> 14.00</p>
-        <p className="timetable__text timetable__text_about_car">Трансфер до ресторана "Панорама"<br /> 14.20</p>
+        <p className="timetable__text timetable__text_about_legsin">Сбор гостей <br />м. Старая деревня<br /> 13.30</p>
+        <p className="timetable__text timetable__text_about_car">Трансфер до ресторана "Панорама"<br /> 14.00</p>
         <p className="timetable__text timetable__text_about_glasses">Welcome Фуршет	<br /> 15.00</p>
         <p className="timetable__text timetable__text_about_rings">Торжественная церемония <br /> 16.00</p>
         <p className="timetable__text timetable__text_about_plate">Открытие свадебной вечеринки<br /> 16.40</p>
